@@ -6,11 +6,10 @@ Created on Sep 8, 2015
 def main():
     import math     
     
- 
     n=0
    
  
-    for n in range(20):
+    for n in range(0,19):
         f= math.factorial (n)
         print(n,"!=",f)
     
